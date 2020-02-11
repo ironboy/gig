@@ -12,4 +12,4 @@ app.get('/songs', (req, res) => {
   res.json(paths.map(x => fs.readFileSync(path.join(songs, x), 'utf-8')));
 });
 
-app.listen(3001, () => console.log('Listening on port 3001'));
+app.listen(3002, () => console.log('Listening on port 3002'));

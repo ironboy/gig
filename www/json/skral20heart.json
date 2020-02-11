@@ -1,33 +1,7 @@
 {
   "title": "Thomas: Alla hjärtans dag-gig på Skrål, 14 februari 2020",
-  "played": [
-    "SET 1",
-    "Romeo and Juliet",
-    "The tracks of my tears",
-    "If I Had A Boat",
-    "Nu dör en sjöman igen",
-    "SET 2",
-    "Hon är så söt",
-    "Inte gå hem%"
-  ],
-  "playedTimes": [
-    0,
-    5802,
-    5271,
-    3212,
-    2699,
-    0,
-    1414,
-    2204
-  ],
-  "times": [
-    {
-      "start": 1581391806661,
-      "stop": 1581392485121
-    },
-    {
-      "start": 1581392840520
-    }
-  ],
-  "lastUpdate": 1581397670235
+  "played": [],
+  "playedTimes": [],
+  "times": [],
+  "lastUpdate": 1581398347823
 }
