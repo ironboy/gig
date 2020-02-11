@@ -32,6 +32,10 @@ async function createStore() {
       store = await JSON._load(params.gig);
     }
     else {
+      if (!params.gig) {
+        gigChooser();
+        return;
+      }
       document.body.innerHTML = 'No such gig... Use params create=1';
     }
     return;
@@ -68,6 +72,17 @@ async function start() {
   });
   navigate();
   setInterval(clock, 1000);
+}
+
+async function gigChooser(rmode) {
+  let r = await fetch('/gigs');
+  let gigs = await r.json();
+  document.body.innerHTML = `
+    <h1>Välj ett gig:</h1>
+    <div class="rehearse-mode">Rehearse mode: ${rmode ? 'on' : 'off'}</div><div class="gigs">
+    ${gigs.map(x => `<p><a href="/?gig=${x.gig}${rmode ? '&rehearse=1' : ''}">${x.title}</a></p>`).join('')}
+    </div>
+  `;
 }
 
 function listTitles() {
@@ -192,6 +207,10 @@ document.body.addEventListener('click', e => {
   }
   if (e.target.closest('i.clock')) {
     startStopClock();
+  }
+  if (e.target.closest('.rehearse-mode')) {
+    let el = e.target.closest('.rehearse-mode');
+    gigChooser(el.innerHTML.includes('off'));
   }
 });
 

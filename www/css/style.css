@@ -137,3 +137,15 @@ i {
 .rehearse .reset {
   display: block;
 }
+
+.rehearse-mode {
+  cursor: pointer;
+}
+
+.gigs {
+  margin-top: 30px;
+}
+
+.gigs a {
+  text-decoration: none;
+}
