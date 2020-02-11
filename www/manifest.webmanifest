@@ -1,0 +1,8 @@
+{
+  "name": "Gig",
+  "short_name": "Gig",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "Thomas gigapp"
+}
