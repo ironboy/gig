@@ -134,17 +134,27 @@ function startStopClock() {
   clock();
 }
 
-function listSong(title) {
+let lastPart = 0;
+function listSong(title, part = 0) {
+  title = title || currentTitle;
   currentTitle = title;
   currentTitleStartTime = Date.now();
   let index = titles.indexOf(title);
   index = index >= 0 ? index : titles.indexOf(title + '%');
   let main = songs[index].split('\n');
+  if (part === 'next') {
+    let parts = songs[index].split('---').length;
+    part = lastPart;
+    part = parts > part + 1 ? part + 1 : 0;
+  }
+  lastPart = part;
   let h1 = main.shift().split('#').join('').split(')').join(')&nbsp;&nbsp;&nbsp;');
   main = main.join('\n').split('\n\n').join('</p><p>').split('\n').join('<br>\n');
   main = main.replace('<br>', '<p>') + '</p>';
   main = main.replace(/\*([^\*]*)\*/g, '<i>$1</i>');
   main = main.replace(/  /g, '&nbsp;&nbsp;&nbsp;');
+  main = main.split('---')[part].trim();
+  if (part > 0) { main = main.replace('<br>', ''); }
   document.body.innerHTML = '<h1 class="title">' + h1 + '<i class="icofont-home img-in-h1"></i></h1><div class="text">' + main + '</div><i class="icofont-check-circled played"></i>';
   sizeText();
 }
@@ -185,9 +195,11 @@ document.body.addEventListener('click', e => {
   if (e.target.closest('.titles p')) {
     let title = e.target.closest('.titles p').querySelector('span').innerText.trim();
     location.hash = encodeURIComponent(title.split(' ').join('-'));
+    return;
   }
   if (e.target.closest('h1.title .img-in-h1')) {
     location.hash = '';
+    return;
   }
   if (e.target.closest('h1.songs .img-in-h1')) {
     store.played = [];
@@ -195,6 +207,7 @@ document.body.addEventListener('click', e => {
     store.times = [];
     store.save();
     listTitles();
+    return;
   }
   if (e.target.closest('i.played')) {
     let pu = currentTitle;
@@ -204,14 +217,18 @@ document.body.addEventListener('click', e => {
     store.played = [...new Set(store.played)];
     store.save();
     location.hash = '';
+    return;
   }
   if (e.target.closest('i.clock')) {
     startStopClock();
+    return;
   }
   if (e.target.closest('.rehearse-mode')) {
     let el = e.target.closest('.rehearse-mode');
     gigChooser(el.innerHTML.includes('off'));
+    return;
   }
+  listSong('', 'next');
 });
 
 start();

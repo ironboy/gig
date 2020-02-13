@@ -1,0 +1,49 @@
+#Simple twist of fate (Bob Dylan) D
+
+They sat together in the park
+As the evening sky grew dark
+She looked at him and he felt a spark
+Tingle to his bones
+It was then he felt alone
+And wished that he'd gone straight
+And watched out for a simple twist of fate
+
+They walked along by the old canal
+A little confused, I remember well
+And stopped into a strange hotel
+With a neon burnin' bright
+He felt the heat of the night
+Hit him like a freight train
+Moving with a simple twist of fate
+
+A saxophone someplace far-off played
+As she was walkin' on by the arcade
+As the light bust through a beat-up shade
+Where he was waking up
+She dropped a coin into the cup
+Of a blind man at the gate
+And forgot about a simple twist of fate
+
+He woke up, the room was bare
+He didn't see her anywhere
+He told himself he didn't care
+Pushed the window open wide
+Felt an emptiness inside
+To which he just could not relate
+Brought on by a simple twist of fate
+
+He hears the ticking of the clocks
+And walks along with a parrot that talks
+Hunts her down by the waterfront docks
+Where the sailors all come in
+Maybe she'll pick him out again
+How long must he wait?
+One more time, for a simple twist of fate
+
+People tell me it's a sin
+To know and feel too much within
+I still believe she was my twin
+But I lost the ring
+She was born in spring
+But I was born too late
+Blame it on a simple twist of fate

@@ -39,7 +39,7 @@ Som en hafsigt gjord schablon *  C D G*
 Som du har skurit ut i tron *  E#m7 C*
 Att du behöver leka gud *  Am7 D*
 …Ett väldresserat djur *  G*
-
+---
 Du såg så vacker ut på håll *  C D7 G*
 Jag drömde att du var min tvillingsjäl *  Em C G*
 Men glömde att du vill ha full kontroll *  Em C G*
