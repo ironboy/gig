@@ -88,7 +88,7 @@ async function gigChooser(rmode) {
 function listTitles() {
   let unplayed = titles.filter(x => !(store.played.includes(x) || store.played.includes(x.split('%').join(''))));
   let all = [...unplayed, '<hr>', ...store.played];
-  document.body.innerHTML = '<h1 class="songs">' + hh1 + '<i class="icofont-reply-all reset img-in-h1"></i></h1> <div class="titles">' + all.map(x => `<p class="${store.played.includes(x) ? 'played' : ''}${x.includes('%') ? ' own' : ''} "><span>${x.split('%').join('')}</span>${store.played.includes(x) && !x.includes('SET') ? ' ' + tfLength(0, store.playedTimes[store.played.indexOf(x)]).replace('00:', '') : ''}</p>`).join('') + '<hr>' + (all.length - 1) + ' låtar, varav ' + store.played.filter(x => !x.includes('SET')).length + ' spelade.<br>Ca ' + Math.round(unplayed.length * minutesPerSong) + ' minuter material kvar.</div><div class="time"></div>';
+  document.body.innerHTML = ('<h1 class="songs">' + hh1 + '<i class="icofont-reply-all reset img-in-h1"></i></h1> <div class="titles">' + all.map((x, ii) => `<p class="${store.played.includes(x) ? 'played' : ''}${x.includes('%') ? ' own' : ''} "><span>${x.split('%').join('')}</span>${store.played.includes(x) && !x.includes('SET') ? ' ' + tfLength(0, store.playedTimes[ii - unplayed.length - 1]).replace('00:', '') : ''}</p>`).join('') + '<hr>' + ([...new Set(all)].filter(x => !x.includes('SET')).length - 1) + ' låtar, varav ' + store.played.filter(x => !x.includes('SET')).length + ' spelade.<br>Ca ' + Math.round(unplayed.length * minutesPerSong) + ' minuter material kvar.</div><div class="time"></div>').split('<span>SET').join('<span><br>SET').split('<span><br>SET 1').join('<span>SET 1');
   currentTitle = '';
   currentTitleStartTime = '';
   clock();
@@ -138,10 +138,14 @@ let lastPart = 0;
 function listSong(title, part = 0) {
   title = title || currentTitle;
   currentTitle = title;
-  currentTitleStartTime = Date.now();
+  part === 0 && (currentTitleStartTime = Date.now());
   let index = titles.indexOf(title);
   index = index >= 0 ? index : titles.indexOf(title + '%');
-  let main = songs[index].split('\n');
+  let main;
+  try {
+    main = songs[index].split('\n');
+  }
+  catch (e) { listTitles(); return; }
   if (part === 'next') {
     let parts = songs[index].split('---').length;
     part = lastPart;
@@ -191,7 +195,7 @@ function navigate() {
 
 window.onhashchange = navigate;
 
-document.body.addEventListener('click', e => {
+document.addEventListener('click', e => {
   if (e.target.closest('.titles p')) {
     let title = e.target.closest('.titles p').querySelector('span').innerText.trim();
     location.hash = encodeURIComponent(title.split(' ').join('-'));
@@ -214,7 +218,7 @@ document.body.addEventListener('click', e => {
     pu += titles.includes(pu) ? '' : '%';
     store.played.push(pu);
     store.playedTimes.push(Date.now() - currentTitleStartTime);
-    store.played = [...new Set(store.played)];
+    //store.played = [...new Set(store.played)];
     store.save();
     location.hash = '';
     return;

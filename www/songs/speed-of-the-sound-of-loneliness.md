@@ -1,4 +1,4 @@
-# Speed of the sound of loneliness (John Prine) Tonart?
+# Speed of the sound of loneliness (John Prine) G + capo 3?
 
 You come home late 
 and you come home early
@@ -25,7 +25,7 @@ So what in the world's come over you...
 It's a mighty mean and a dreadful sorrow
 That's crossed the evil line today
 Well, how can you ask about tomorrow
-We ain't got one word to say
+We we ain't got one word left to say
 
 So what in the world's come over you...
 

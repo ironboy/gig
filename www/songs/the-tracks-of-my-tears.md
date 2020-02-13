@@ -23,7 +23,7 @@ The tracks of my tears
 
 Outside I'm masquerading
 Inside my hope is fading
-Just a clown
+I'm just a clown
 Since you put me down
 My smile is my make up
 I wear since my break up with you

@@ -16,13 +16,13 @@ Håll det där leendet levande, det är det bästa du har
 Möt mej på Rialto, om du har din längtan kvar
 
 Tågen dom rullar på bron, och klockan i Stadshusets torn
-Slår tolv och jag står på Slussen i snöslask och is
+Slår tolv och jag står där vid Slussen i snöslask och is
 På en krog nere i Gamla Stan, där jag känner mej hemma och van
 Får jag vin och mat och värme, för ett hyfsat pris
 
 Och om du hör det här på nån radio nånstans
 Då vet du vem jag skrev det här till, där nere i valvet
-Och då vet du också vad det ät jag vill
+Och då vet du också vad det är jag vill
 
 Jag vill se dej på Rialto, i ett ljummet regn...
 

@@ -1,4 +1,4 @@
-Romeo and Juliet (Mark Knopfler) D +2 
+Romeo and Juliet (Mark Knopfler) D + capo 2 
 
 A lovestruck Romeo sings a street side serenade
 Laying everybody low with a love song that he made
@@ -29,14 +29,14 @@ Now you just say "oh, Romeo, yeah, you know I used to have a scene with him"
 You said 'I love you like the stars above, I'll love you till I die'
 There's a place for us, you know the movie song
 When you gonna realize it was just that the time was wrong, Juliet?"
-
-I can't do the talk like they talk on the TV
+---
+I can't do the talk like the talk on the TV
 And I can't do a love song like the way it's meant to be
 I can't do everything but I'd do anything for you
 I can't do anything except be in love with you
 
 And all I do is miss you and the way we used to be
-All I do is keep the beat and bad company
+All I do is keep the beat - the bad company
 All I do is kiss you through the bars of a rhyme
 Julie, I'd do the stars with you any time
 
@@ -46,3 +46,8 @@ There's a place for us you know the movie song
 When you gonna realize it was just that the time was wrong, Juliet?"
 
 A lovestruck Romeo sings a street side serenade
+Laying everybody low with a love song that he made
+Finds a  convenient streetlight, steps out of the shade
+Says something like, "You and me, babe, how about it?"
+
+"You and me, babe, how about it?"

@@ -3,14 +3,14 @@
 Du såg så vacker ut på håll *  C D7 G*
 Jag drömde att du var min tvillingsjäl *  Em C G*
 Men fastfrusen i en isboll av kontroll *  Em C G*
-Så jag ville närmre, ville värma, ville väl *  Em C G*
+Så jag ville närmre, ville värma, ville väl * Em C G*
 
 Och efter viss inledande trevan *  C(+2) C G*
 Uppstod helt klart en viss passion *  H7 Em*
 Men precis i den vevan *  C G*
-Kom tvekan och kasta mig ut över bron *  A7 D7*
+Kom tvekan och kasta mig ut över bron * A7 D7*
 
-Och jag önskar att du skrattade mer *  Am7 Em7*
+Och jag önskar att du skrattade mer * Am7 Em7*
 Och fick mig till att skratta *  Am7 G*
 Och jag önskar att du fattade mer *  Am7 Em7*
 Och fick mig till att fatta *  C D7*
