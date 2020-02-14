@@ -1,4 +1,4 @@
-# Regnig midsommardans (Thomas Frank) Am + capo 2?
+# Regnig midsommardans (Thomas Frank) C + capo 2
 
 Jag tar mig varligt hem
 För alla steg låter för mycket

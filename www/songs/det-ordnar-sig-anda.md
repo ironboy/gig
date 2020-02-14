@@ -1,4 +1,4 @@
-# Det ordnar sig ändå (Thomas Frank) A?
+# Det ordnar sig ändå (Thomas Frank) A + capo 2
 
 Jag önskar att du inte sa
 Att du är precis som jag

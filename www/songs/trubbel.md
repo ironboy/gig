@@ -1,4 +1,4 @@
-Trubbel (Olle Adolphson) Em + capo ?
+Trubbel (Olle Adolphson) Am + capo 3
 
 Nu lyser ängarna av sommarns alla blommor
 Nu surrar bin och fåglar flyger överallt

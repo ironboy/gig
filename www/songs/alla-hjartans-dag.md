@@ -1,4 +1,4 @@
-# Alla hjärtans dag (Thomas Frank) G + capo 1?
+# Alla hjärtans dag (Thomas Frank) G + capo 2
 
 *Em Am7          D7 G Gmaj 
 C Cmaj Am7      H7 Em

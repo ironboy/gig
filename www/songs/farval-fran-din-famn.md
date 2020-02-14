@@ -1,42 +1,45 @@
-# Farväl från din famn (Waits/Frank) G eller A + capo ?
+# Farväl från din famn (Waits/Frank) G + capo 3
 
-Jag ska lämna kvar vartenda plagg
+*A : C  G  Hm  Em  C  G  D  x 2
+B : D7 G  E7 Am7 D7  G  C  D  x 2*
+
+*A* Jag ska lämna kvar vartenda plagg
 Som jag bar när jag fanns hos dig
 Och allt jag tar nu när jag går
 Är dom trasor jag har på mig
 
-För jag tar farväl ifrån din famn
+*A: *För jag tar farväl ifrån din famn
 Fast mitt hjärta spräcks av saknad
-Och jag lossar lätt din mjuk arm
+Och jag lossar lätt din mjuka arm
 Och går innan du vaknar
 
-Du har morronsolen som en krans
+*B: *Du har morronsolen som en krans
 Kring ditt hår - nu går jag
 Men fortsätt sov, för det finns ingen chans
 För oss två, det förstår jag
 
-Så jag tar farväl ifrån din famn
+*A: *Så jag tar farväl ifrån din famn
 Men du hittar snart nån annan
 Och jag vet så väl att då blir han
 Vid din sida för att stanna
 
-Din slitna röda hårband är
+*B: *Din slitna röda hårband är
 Det enda jag tar med mig
 Från nattduksbordet vid din säng
 Det blir ett sista minne av dig
 
-Och jag tar farväl, jag tar farväl,
+*A: *Och jag tar farväl, jag tar farväl,
 farväl från din famn
 
-Jag snubblar ner för trapphuset
+*B: *Jag snubblar ner för trapphuset
 Och vägen ner känns så lång
 Jag snavar på en trasig man
 Som sover i din portgång
 
-Och herre gud, tar mina sista spänn
+*A: *Och herre gud, tar mina sista spänn
 Och sätt mig på ett tåg nånstans sen
 För jag får aldrig älska dig igen
 Eller säga förlåt
 
-Och jag tar farväl, jag tar farväl,
+*A: *Och jag tar farväl, jag tar farväl,
 farväl från din famn

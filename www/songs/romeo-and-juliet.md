@@ -1,4 +1,4 @@
-Romeo and Juliet (Mark Knopfler) D + capo 2 
+Romeo and Juliet (Mark Knopfler) D + capo 3 
 
 A lovestruck Romeo sings a street side serenade
 Laying everybody low with a love song that he made

@@ -1,4 +1,4 @@
-# Speed of the sound of loneliness (John Prine) G + capo 3?
+# Speed of the sound of loneliness (John Prine) D + capo 3
 
 You come home late 
 and you come home early

@@ -1,4 +1,4 @@
-# Inte gå hem (Thomas Frank) Am?
+# Inte gå hem (Thomas Frank) Am + capo 2
 
 Natten är ung men kvällen börjar bli sen
 Luften börjar svalna men är än ljus och len
