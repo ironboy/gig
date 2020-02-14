@@ -28,10 +28,10 @@ men är man två om dom så gör det mindre ont.
 Kom nu med mej, jag har nog ett glas, 
 jag hade en vän som lämnade ett kvar.
 
-Hej hej, vad har du att säg?
+Hej hej, vad har du å säg?
 Ingenting (alls)!
 Lika som bär i en kolsvart natt, 
-säg ingenting för jag vet hur det är fatt.
+så säg ingenting för jag vet hur det är fatt.
 
 Vi tar den blå vägen hem..., 
 Vi tar den blå vägen hem...,
