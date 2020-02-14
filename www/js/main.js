@@ -164,9 +164,14 @@ function listSong(title, part = 0) {
 }
 
 function sizeText() {
+
   let text = document.querySelector('.text');
   let max = window.innerHeight - 100;
   let a = [{ c: 2, f: 22 }, { c: 3, f: 22 }, { c: 4, f: 22 }];
+  // specialfix Trubbel
+  if (currentTitle === 'Trubbel') {
+    a = a.slice(0, -2);
+  }
   for (let b of a) {
     text.style.fontSize = '22px';
     text.style.columnCount = b.c;
@@ -175,7 +180,7 @@ function sizeText() {
       b.f -= .5;
     }
   }
-  if (a[1].f >= 18) {
+  if (a[1] && a[1].f >= 18) {
     text.style.fontSize = a[1].f + 'px';
     text.style.columnCount = a[1].c;
     document.body.innerHTML += '';
@@ -184,6 +189,7 @@ function sizeText() {
   a.sort((x, y) => x.f > y.f ? -1 : 1);
   text.style.fontSize = a[0].f + 'px';
   text.style.columnCount = a[0].c;
+  // safari bug fix...
   document.body.innerHTML += '';
 }
 
