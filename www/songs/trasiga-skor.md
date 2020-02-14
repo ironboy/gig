@@ -35,6 +35,6 @@ tills de har slutat gå.
 Djävulen som i helvetet bor
 får sig ett gott skratt då.
 
-Han får sig ett gått skratt då.
+Han får sig ett gott skratt då.
 
 *vissla sista raden om det känns rätt...*

@@ -9,6 +9,7 @@ app.use(flexjson);
 app.get('/songs', (req, res) => {
   let songs = path.join(__dirname, 'www', 'songs');
   let paths = fs.readdirSync(songs);
+  paths = paths.filter(x => x.includes('.md'));
   res.json(paths.map(x => fs.readFileSync(path.join(songs, x), 'utf-8')));
 });
 

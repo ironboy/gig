@@ -23,7 +23,7 @@ Eller kanske en katt”
 Ja, du har en hel välmenande lobby-istkår			
 Som säljer sol och vår och glada skratt
 
-*C F C      C F C      G7 C G7 C     F G7 C*
+*C F C    C F C    G7 C G7 C    F G7 C*
 
 Och portdörren slår och du går ut i vinden
 Med tårar som blåser bort från kinden
@@ -46,7 +46,7 @@ Vin, cigg och musik och något mer
 Du vet att… här finns ingen framtid, men…
 Mhm, ni får varann att le
 ---
-*C F C      C F C      G7 C G7 C     F G7 C*
+*C F C    C F C    G7 C G7 C    F G7 C*
 Och portdörren slår och du går ut i vinden.
 Med ett minne av en varm mun och kalla tår
 Det är en perfekt dag för uppbrott så du stänger grinden när du går
@@ -60,7 +60,7 @@ Nu när blåsten tränger på”
 Ja, du fick en hel del välmenad kärlek igår
 Men sånt har du oftast svårt att förstå
 
-*C F C      C F C      G7 C G7 C     F G7 C*
+*C F C    C F C    G7 C G7 C    F G7 C*
 Portdörren slår och du stänger grinden
 Och ser inte att hon öppnat fönstret ut mot går’n
 ”Ta hand om dig skatt” ropar hon mot vinden när du går
